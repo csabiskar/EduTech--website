@@ -13,11 +13,11 @@ const Header = () => {
         </div>
         
         <nav className="hidden md:flex items-center gap-8">
-          <a href="#home" className="text-foreground hover:text-primary transition-colors">Home</a>
-          <a href="#courses" className="text-foreground hover:text-primary transition-colors">Courses</a>
-          <a href="#about" className="text-foreground hover:text-primary transition-colors">About</a>
-          <a href="#testimonials" className="text-foreground hover:text-primary transition-colors">Testimonials</a>
-          <a href="#contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
+          <a href="/" className="text-foreground hover:text-primary transition-colors font-medium">Home</a>
+          <a href="/courses" className="text-foreground hover:text-primary transition-colors font-medium">Courses</a>
+          <a href="/about" className="text-foreground hover:text-primary transition-colors font-medium">About</a>
+          <a href="/testimonials" className="text-foreground hover:text-primary transition-colors font-medium">Testimonials</a>
+          <a href="/contact" className="text-foreground hover:text-primary transition-colors font-medium">Contact</a>
         </nav>
         
         <div className="flex items-center gap-3">
