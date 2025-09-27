@@ -15,13 +15,13 @@ const HeroSection = () => {
       </div>
 
       {/* Floating geometric shapes */}
-      <div className="absolute inset-0 pointer-events-none">
+      {/* <div className="absolute inset-0 pointer-events-none">
         <img 
           src={floatingElements} 
           alt="" 
           className="absolute inset-0 w-full h-full object-cover opacity-5 animate-rotate-slow"
         />
-      </div>
+      </div> */}
       
       <div className="container relative z-10 mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -40,7 +40,7 @@ const HeroSection = () => {
                 </span>
                 <br />
                 <span className="relative inline-block">
-                  <span className="text-primary underline decoration-wavy decoration-primary/30 animate-pulse-glow">
+                  <span className="  decoration-primary/30 ">
                     All in One Place
                   </span>
                   <div className="absolute -top-2 -right-6">

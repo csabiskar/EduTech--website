@@ -9,9 +9,9 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 bg-hero-gradient rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">M</span>
+                <span className="text-white font-bold text-xl">D</span>
               </div>
-              <span className="text-xl font-bold">Marketing Mentor</span>
+              <span className="text-xl font-bold">DigiTorial</span>
             </div>
             <p className="text-background/80 leading-relaxed">
               Empowering individuals to build successful digital marketing careers through comprehensive training and mentorship.
@@ -64,7 +64,7 @@ const Footer = () => {
         
         <div className="border-t border-background/20 pt-8 text-center">
           <p className="text-background/60">
-            © 2024 Marketing Mentor. All rights reserved. Built with passion for your success.
+            © 2024 DigiTorial. All rights reserved. Built with passion for your success.
           </p>
         </div>
       </div>
